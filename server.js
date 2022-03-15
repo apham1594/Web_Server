@@ -1,4 +1,5 @@
 const http = require('http')
+
 const fs = require('fs')
 const port = 7000
 
@@ -20,3 +21,4 @@ server.listen(port, function (error) {
         console.log('Server is working')
     }
 })
+
