@@ -12,6 +12,7 @@ const server = http.createServer(function (req, res) {
         } else {
             res.write(data)
         }
+        res.end()
     })
 })
 server.listen(port, function (error) {
